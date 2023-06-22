@@ -1,0 +1,13 @@
+<!-- import MyLayout from "../components/Layout" -->
+<!-- import "../components/ClickMe" -->
+<?php
+$user = "user12";
+$GLOBAL_list_contents = ["root"];
+?>
+<MyLayout title="Homepage">
+    <h1>Hello, @<?= $user ?></h1>
+    <ClickMe />
+    <p>
+        <?= implode(", ", $GLOBAL_list_contents) ?>
+    </p>
+</MyLayout>

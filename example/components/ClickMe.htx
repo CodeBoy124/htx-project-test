@@ -1,0 +1,6 @@
+<?php
+if (isset($GLOBAL_list_contents)) {
+    array_push($GLOBAL_list_contents, "clickme");
+}
+?>
+<button>Click me!</button>
